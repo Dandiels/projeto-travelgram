@@ -1,0 +1,23 @@
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 24px;
+}
+
+footer div span
+{
+    padding-block: 1.5px;
+}
+
+footer ul
+{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+footer ul li span
+{
+    padding: 4px;
+}
