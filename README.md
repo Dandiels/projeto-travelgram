@@ -1,6 +1,6 @@
 # Página de Perfil Travelgram
 
-Este é um projeto de uma página de perfil de usuário voltada para viagens, desenvolvido com **HTML** e **CSS**. A interface exibe uma galeria de fotos, informações do perfil e menus de navegação, simulando uma rede social de viajantes.
+Este é um projeto de uma página de perfil de usuário voltada para viagens, desenvolvido com **HTML** e **CSS**. A interface exibe uma galeria de fotos, informações do perfil e menus de navegação, simulando uma rede social de viajantes. O design da página utiliza fontes personalizadas do Google Fonts.
 
 ## Tecnologias Utilizadas
 
