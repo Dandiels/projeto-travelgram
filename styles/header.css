@@ -1,56 +1,64 @@
+/* Estilos para o cabeçalho da página */
 header
 {
-    padding-block: 32px;
-    font: var(--text-md);
+    padding-block: 32px; /* Espaço acima e abaixo do conteúdo */
+    font: var(--text-md); /* Tamanho e espaçamento de linha padrão do header */
 }
 
+/* Container principal do header */
 header .container
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Organiza o conteúdo lado a lado */
+    justify-content: space-between; /* Espaça os blocos principais */
+    align-items: center; /* Alinha verticalmente */
 }
 
+/* Perfil do usuário */
 #profile
 {
-    display: flex;
-    gap: 32px;
-    max-width: 592px;
+    display: flex; /* Foto e texto lado a lado */
+    gap: 32px; /* Espaço entre a imagem e o texto */
+    max-width: 592px; /* Largura máxima para o bloco do perfil */
 }
 
+/* Conteúdo textual do perfil (h1 e parágrafo) */
 #profile > div
 {
-    max-width: 384px;
-    padding-block: 4px;
+    max-width: 384px; /* Largura máxima para o bloco do texto */
+    padding-block: 4px; /* Espaço superior e inferior */
 }
 
+/* Nome do usuário */
 #profile h1
 {
-    font: var(--text-lg);
+    font: var(--text-lg); /* Tamanho grande e negrito */
     color: var(--text-color-primary);
-    margin-bottom: 8px;
+    margin-bottom: 8px; /* Espaço abaixo do título */
 }
 
+/* Imagem do perfil */
 #profile img
 {
     width: 176px;
     height: 176px;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+    border-radius: 50%; /* Torna a imagem circular */
 }
 
+/* Lista de informações adicionais do perfil (local, países, fotos) */
 #info
 {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 280px;
+    list-style: none; /* Remove marcadores */
+    display: flex; /* Organiza os itens lado a lado */
+    flex-direction: column; /* Muda a orientação da lista para coluna */
+    gap: 16px; /* Espaço entre os itens */
+    width: 280px; /* Largura fixa da lista */
 }
 
+/* Cada item da lista com ícone + texto */
 #info li
 {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    display: flex; /* Organiza o ícone e o texto lado a lado */
+    align-items: center; /* Alinha verticalmente */
+    gap: 8px; /* Espaço entre o ícone e o texto */
 }

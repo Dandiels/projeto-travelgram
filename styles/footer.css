@@ -1,23 +1,27 @@
+/* Estilo para o rodapé da página */
 footer
 {
-    display: flex;
-    justify-content: space-between;
-    padding-block: 24px;
-    font: 14px/150% var(--font-family);
+    display: flex; /* Alinha o texto e a lista lado a lado */
+    justify-content: space-between; /* Espaça os dois blocos nas extremidades */
+    padding-block: 24px; /* Espaçamento acima e abaixo */
+    font: 14px/150% var(--font-family); /* Tamanho e altura da linha */
 }
 
+/* Ajuste de espaçamento vertical do texto de direitos autorais */
 footer div span
 {
     padding-block: 1.5px;
 }
 
+/* Lista de links legais (Termos, Política) */
 footer ul
 {
-    display: flex;
-    list-style: none;
-    gap: 16px;
+    display: flex; /* Itens em linha */
+    list-style: none; /* Remove marcadores */
+    gap: 16px; /* Espaço entre os itens */
 }
 
+/* Espaçamento interno dos itens da lista */
 footer ul li span
 {
     padding: 4px;
