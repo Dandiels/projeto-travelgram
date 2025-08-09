@@ -23,6 +23,10 @@ O projeto está organizado da seguinte forma:
 
 ## Como Visualizar o Projeto
 
+Acesse diretamente pelo link: [Travelgram | Perfil de Viagens no GitHub Pages](https://dandiels.github.io/projeto-travelgram/).
+
+Ou, se preferir:
+
 1. Clone este repositório:
 
    ```bash
